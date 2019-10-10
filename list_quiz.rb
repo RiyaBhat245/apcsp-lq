@@ -3,7 +3,7 @@ def three_even?(list)
     [list.size - 2].times do |i|
         if list[i] % 2 == 0
             (list[i..(i+3)])
-            if (list[i + 1] % 2 = 0) && (list[i + 1] % 2 = 0)
+            if (list[i + 1] % 2 == 0) && (list[i + 1] % 2 == 0)
                 return true
             else
                 return false
